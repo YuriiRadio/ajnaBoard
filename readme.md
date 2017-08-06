@@ -4,6 +4,7 @@
 <b>ajnaBoard</b> - двигун дошки оголошень на фреймворку Yii2. Двигун в стадії розробки. Розробляється повність з нуля...
 
 <h3>Встановлення ajnaBoard</h3>
+<pre>
 - встановіть через Composer базову версію шаблону Yii2 (http://www.yiiframework.com/download/)
 командою:
 <code>php composer create-project yiisoft/yii2-app-basic ./ 2.0.12</code>
@@ -14,6 +15,7 @@
 - заватажте з GitHub архів зі всіма файлами <b>ajnaBoard</b> та розархівуйте в каталог де встановлений базовий шаблон Yii2, з заміною всіх файлів
 - створити базу даних - ajna_board, імпортувати записи до БД з файлу <b>ajna_board.sql</b>
 - після встановлення файл <b>ajna_board.sql</b> видалити.
+</pre>
 
 <b>Адміністратор:</b>
 login: admin
@@ -38,6 +40,7 @@ password: 12345
 </pre>
 
 <h3>Вже зробленено:</h3>
+<pre>
 <b>а) моделі:</b>
 	1) Advert - оголошення;
 	2) AdvertCategory - категорії оголошень (необмежена кількість вкладень);
@@ -57,7 +60,24 @@ password: 12345
 	16) StaticPage - статичні сторінки сайту;
 	17) StaticPageI18n - інтрернаціоналізація для статичних сторінок сайту;
 	18) User - модель для користувачів
+</pre>
 ...
+
+<img src="https://github.com/YuriiRadio/ajnaBoard/blob/master/web/uploads/ajnaBoard1.png" />
+<br />
+<img src="https://github.com/YuriiRadio/ajnaBoard/blob/master/web/uploads/ajnaBoard2.png" />
+<br />
+<img src="https://github.com/YuriiRadio/ajnaBoard/blob/master/web/uploads/ajnaBoard3.png" />
+<br />
+<img src="https://github.com/YuriiRadio/ajnaBoard/blob/master/web/uploads/ajnaBoard4.png" />
+<br />
+<img src="https://github.com/YuriiRadio/ajnaBoard/blob/master/web/uploads/ajnaBoard5.png" />
+<br />
+<img src="https://github.com/YuriiRadio/ajnaBoard/blob/master/web/uploads/ajnaBoard6.png" />
+<br />
+<img src="https://github.com/YuriiRadio/ajnaBoard/blob/master/web/uploads/ajnaBoard7.png" />
+<br />
+<img src="https://github.com/YuriiRadio/ajnaBoard/blob/master/web/uploads/ajnaBoard8.png" />
 
 Yurii Radio - 2017
 
